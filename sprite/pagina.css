@@ -1,0 +1,39 @@
+/* Resetear márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para los íconos de redes sociales */
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 10px; /* Espacio entre íconos */
+    background-image: url('https://i.pinimg.com/564x/41/af/08/41af08010770adaba9ed9c14e57e3f61.jpg'); /* Ruta a tu única imagen de sprite */
+    background-size: 64px 64px; /* Tamaño de la imagen del sprite */
+  }
+  
+  /* Coordenadas de los íconos en el sprite */
+  .icon-facebook {
+    background-position: -32px 0px; /* Coordenadas para el primer ícono (1) */
+  }
+  
+  .icon-messenger {
+    background-position: -32px -32px; /* Coordenadas para el segundo ícono (2) */
+  }
+  
+  .icon-instagram {
+    background-position: 0px 0px; /* Coordenadas para el tercer ícono (3) */
+  }
+  
+  .icon-whatsapp {
+    background-position:  0px -32px; /* Coordenadas para el cuarto ícono (4) */
+  }
+  
